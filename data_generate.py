@@ -5,7 +5,6 @@ data = open('poker-hand-testing.data', 'rw')
 data_line = data.readlines()\
 
 for i in range(25000):
-    instance = ""
     plays_first = rand.getrandbits(1)
     pot_amount = rand.randint(1000, 100000)
     player_amount = rand.randint(1000, 10000)
